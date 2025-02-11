@@ -1,0 +1,1642 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 06:59:02
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 8.3.1                                 |8.3.4
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.3.4 | SAPI: cgi-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.54 (Win64) OpenSSL/1.1.1q mod_fcgid/2.3.10-dev
+DOC ROOT____________: "C:/laragon/www/brenocarvalho"
+REQUEST URL_________: "http://localhost/brenocarvalho"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+SECURE MODE_________: "none"
+URL PLUGINS_________: https://brenocarvalho.com.br/wp-content/plugins
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/laragon/www/brenocarvalho"
+URL_NEW_____________: "http://localhost/brenocarvalho"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "C:/laragon/www/brenocarvalho/20250211_brenodecarvalho_[HASH]_20250211185407_archive.zip"
+ARCHIVE SIZE________: 201.88MB
+CREATED_____________: 2025-02-11 18:54:07
+WP VERSION__________: 6.7.1
+DUP VERSION_________: 1.5.11.2
+LICENSE_____________: Free version
+DB VERSION__________: 10.11.11
+DB FILE SIZE________: 67.85MB
+DB TABLES___________: 66
+DB ROWS_____________: 41775
+URL HOME____________: https://brenocarvalho.com.br
+URL CORE____________: https://brenocarvalho.com.br
+URL CONTENT_________: https://brenocarvalho.com.br/wp-content
+URL UPLOAD__________: https://brenocarvalho.com.br/wp-content/uploads
+URL PLUGINS_________: https://brenocarvalho.com.br/wp-content/plugins
+URL MU PLUGINS______: https://brenocarvalho.com.br/wp-content/mu-plugins
+URL THEMES__________: https://brenocarvalho.com.br/wp-content/themes
+PATH HOME___________: /home/u315784279/domains/brenocarvalho.com.br/public_html
+PATH ABS____________: /home/u315784279/domains/brenocarvalho.com.br/public_html
+PATH WPCONFIG_______: /home/u315784279/domains/brenocarvalho.com.br/public_html
+PATH WPCONTENT______: /home/u315784279/domains/brenocarvalho.com.br/public_html/wp-content
+PATH UPLOADS________: /home/u315784279/domains/brenocarvalho.com.br/public_html/wp-content/uploads
+PATH PLUGINS________: /home/u315784279/domains/brenocarvalho.com.br/public_html/wp-content/plugins
+PATH MUPLUGINS______: /home/u315784279/domains/brenocarvalho.com.br/public_html/wp-content/mu-plugins
+PATH THEMES_________: /home/u315784279/domains/brenocarvalho.com.br/public_html/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "brenocarvalho.com.br/"
+
+PLUGINS
+PLUGIN [SLUG:advanced-custom-fields-pro/acf.php                ][ON:true ]  Advanced Custom Fields PRO
+PLUGIN [SLUG:webp-converter-for-media/webp-converter-for-media.php][ON:true ]  Converter for Media
+PLUGIN [SLUG:custom-post-type-ui/custom-post-type-ui.php       ][ON:true ]  Custom Post Type UI
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:ele-custom-skin/ele-custom-skin.php               ][ON:true ]  Ele Custom Skin
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:elementor-pro/elementor-pro.php                   ][ON:true ]  Elementor Pro
+PLUGIN [SLUG:litespeed-cache/litespeed-cache.php               ][ON:true ]  LiteSpeed Cache
+PLUGIN [SLUG:prevent-xss-vulnerability/prevent-xss-vulnerability.php][ON:true ]  Prevent XSS Vulnerability
+PLUGIN [SLUG:seo-by-rank-math/rank-math.php                    ][ON:true ]  Rank Math SEO
+PLUGIN [SLUG:wordfence/wordfence.php                           ][ON:true ]  Wordfence Security
+PLUGIN [SLUG:insert-headers-and-footers/ihaf.php               ][ON:true ]  WPCode Lite
+PLUGIN [SLUG:wpforms-lite/wpforms.php                          ][ON:true ]  WPForms Lite
+PLUGIN [SLUG:wps-hide-login/wps-hide-login.php                 ][ON:true ]  WPS Hide Login
+PLUGIN [SLUG:object-cache.php                                  ][ON:false]  LiteSpeed Cache - Object Cache (Drop-in)
+
+********************************************************************************
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.74049]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.43510]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+LOG-TIME[DELTA:   0.02524]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.02225]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.13573]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00118]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.01289]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00465]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00275]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00092]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.05848]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00367]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00149]  MESSAGE:TEST "Character Set and Collation Support" RESULT: soft warning
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00139]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+DEFAULT DB_CHARSET [utf8] isn't valid, update DB_CHARSET to utf8mb4 and DB_COLLATE set empty
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 06:59:34
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Breno de Carvalho"
+HOME URL NEW________: "http://localhost/brenocarvalho"
+SITE URL NEW________: "http://localhost/brenocarvalho"
+CONTENT URL NEW_____: "http://localhost/brenocarvalho/wp-content"
+UPLOAD URL NEW______: "http://localhost/brenocarvalho/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/brenocarvalho/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/brenocarvalho/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/laragon/www/brenocarvalho"
+SITE PATH NEW_______: "C:/laragon/www/brenocarvalho"
+CONTENT PATH NEW____: "C:/laragon/www/brenocarvalho/wp-content"
+UPLOAD PATH NEW_____: "C:/laragon/www/brenocarvalho/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/laragon/www/brenocarvalho/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/laragon/www/brenocarvalho/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "C:/laragon/www/brenocarvalho/dup-installer"
+	FILE: "C:/laragon/www/brenocarvalho/20250211_brenodecarvalho_[HASH]_20250211185407_installer-backup.php"
+	FILE: "C:/laragon/www/brenocarvalho/20250211_brenodecarvalho_[HASH]_20250211185407_archive.zip"
+	FILE: "C:/laragon/www/brenocarvalho/installer.php"
+	FILE: "C:/laragon/www/brenocarvalho/dup-installer-bootlog__fad099e-11185407.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20250211_brenodecarvalho_[HASH]_20250211185407_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0129 sec. - Files processed: 666 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 666
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.6378 sec. - Files processed: 2,612 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2612
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0750 sec. - Files processed: 2,824 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2824
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0994 sec. - Files processed: 3,198 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3198
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0153 sec. - Files processed: 3,717 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3717
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0613 sec. - Files processed: 4,082 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4082
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1182 sec. - Files processed: 4,522 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4522
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.2642 sec. - Files processed: 4,779 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4779
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0531 sec. - Files processed: 5,082 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5082
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0284 sec. - Files processed: 5,522 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5522
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0163 sec. - Files processed: 6,310 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6310
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0181 sec. - Files processed: 7,312 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7312
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.2009 sec. - Files processed: 7,848 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7848
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.2421 sec. - Files processed: 8,136 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8136
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.3964 sec. - Files processed: 8,426 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8426
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0309 sec. - Files processed: 8,703 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8703
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0870 sec. - Files processed: 9,111 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9111
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0809 sec. - Files processed: 9,380 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9380
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0894 sec. - Files processed: 9,605 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9605
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0502 sec. - Files processed: 9,738 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9738
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0790 sec. - Files processed: 10,284 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10284
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0940 sec. - Files processed: 10,591 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10591
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0420 sec. - Files processed: 10,932 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10932
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1067 sec. - Files processed: 11,313 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11313
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1494 sec. - Files processed: 11,598 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11598
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0276 sec. - Files processed: 11,987 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11987
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1124 sec. - Files processed: 12,378 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 12378
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0838 sec. - Files processed: 12,695 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 12695
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0565 sec. - Files processed: 12,964 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 12964
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1069 sec. - Files processed: 13,321 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 13321
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0704 sec. - Files processed: 13,622 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 13622
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1079 sec. - Files processed: 14,071 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 14071
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0696 sec. - Files processed: 14,269 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 14269
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0660 sec. - Files processed: 14,709 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 14709
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0995 sec. - Files processed: 14,928 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 14928
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1759 sec. - Files processed: 15,300 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 15300
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0705 sec. - Files processed: 15,582 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 15582
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1092 sec. - Files processed: 15,856 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 15856
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0878 sec. - Files processed: 16,205 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 16205
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/brenocarvalho"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 17044
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 07:03:36 - RUNTIME: 242.2217 sec. - Files processed: 16,437 of 16,437
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 07:03:37
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_actionscheduler_actions"______________________[ROWS:     133] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_actions]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_claims]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_groups]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:     394] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_logs]
+TABLE "wp_aioseo_notifications"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_aioseo_notifications]
+TABLE "wp_aioseo_posts"_________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_aioseo_posts]
+TABLE "wp_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_packages"__________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_packages]
+TABLE "wp_e_events"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_events]
+TABLE "wp_e_submissions"________________________________[ROWS:    1013] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions]
+TABLE "wp_e_submissions_actions_log"____________________[ROWS:    1013] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions_actions_log]
+TABLE "wp_e_submissions_values"_________________________[ROWS:    4052] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions_values]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_litespeed_avatar"_____________________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: wp_litespeed_avatar]
+TABLE "wp_litespeed_img_optming"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_litespeed_img_optming]
+TABLE "wp_litespeed_url"________________________________[ROWS:     130] [EXTRACT|REPLACE] [INST NAME: wp_litespeed_url]
+TABLE "wp_litespeed_url_file"___________________________[ROWS:     224] [EXTRACT|REPLACE] [INST NAME: wp_litespeed_url_file]
+TABLE "wp_options"______________________________________[ROWS:     715] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:    9256] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:    1376] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_rank_math_404_logs"___________________________[ROWS:      32] [EXTRACT|REPLACE] [INST NAME: wp_rank_math_404_logs]
+TABLE "wp_rank_math_internal_links"_____________________[ROWS:      12] [EXTRACT|REPLACE] [INST NAME: wp_rank_math_internal_links]
+TABLE "wp_rank_math_internal_meta"______________________[ROWS:      51] [EXTRACT|REPLACE] [INST NAME: wp_rank_math_internal_meta]
+TABLE "wp_rank_math_redirections"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_rank_math_redirections]
+TABLE "wp_rank_math_redirections_cache"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_rank_math_redirections_cache]
+TABLE "wp_termmeta"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:      38] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_term_relationships"___________________________[ROWS:      85] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:      38] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_usermeta"_____________________________________[ROWS:      74] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_users]
+TABLE "wp_wfauditevents"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfauditevents]
+TABLE "wp_wfblockediplog"_______________________________[ROWS:      23] [EXTRACT|REPLACE] [INST NAME: wp_wfblockediplog]
+TABLE "wp_wfblocks7"____________________________________[ROWS:      41] [EXTRACT|REPLACE] [INST NAME: wp_wfblocks7]
+TABLE "wp_wfconfig"_____________________________________[ROWS:     293] [EXTRACT|REPLACE] [INST NAME: wp_wfconfig]
+TABLE "wp_wfcrawlers"___________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_wfcrawlers]
+TABLE "wp_wffilechanges"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wffilechanges]
+TABLE "wp_wffilemods"___________________________________[ROWS:   10179] [EXTRACT|REPLACE] [INST NAME: wp_wffilemods]
+TABLE "wp_wfhits"_______________________________________[ROWS:     403] [EXTRACT|REPLACE] [INST NAME: wp_wfhits]
+TABLE "wp_wfhoover"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfhoover]
+TABLE "wp_wfissues"_____________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_wfissues]
+TABLE "wp_wfknownfilelist"______________________________[ROWS:   10180] [EXTRACT|REPLACE] [INST NAME: wp_wfknownfilelist]
+TABLE "wp_wflivetraffichuman"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wflivetraffichuman]
+TABLE "wp_wflocs"_______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wflocs]
+TABLE "wp_wflogins"_____________________________________[ROWS:    1509] [EXTRACT|REPLACE] [INST NAME: wp_wflogins]
+TABLE "wp_wfls_2fa_secrets"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfls_2fa_secrets]
+TABLE "wp_wfls_role_counts"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfls_role_counts]
+TABLE "wp_wfls_settings"________________________________[ROWS:      30] [EXTRACT|REPLACE] [INST NAME: wp_wfls_settings]
+TABLE "wp_wfnotifications"______________________________[ROWS:     224] [EXTRACT|REPLACE] [INST NAME: wp_wfnotifications]
+TABLE "wp_wfpendingissues"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfpendingissues]
+TABLE "wp_wfreversecache"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfreversecache]
+TABLE "wp_wfsecurityevents"_____________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_wfsecurityevents]
+TABLE "wp_wfsnipcache"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfsnipcache]
+TABLE "wp_wfstatus"_____________________________________[ROWS:     943] [EXTRACT|REPLACE] [INST NAME: wp_wfstatus]
+TABLE "wp_wftrafficrates"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wftrafficrates]
+TABLE "wp_wfwaffailures"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfwaffailures]
+TABLE "wp_wpforms_logs"_________________________________[ROWS:      11] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_logs]
+TABLE "wp_wpforms_payments"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_payments]
+TABLE "wp_wpforms_payment_meta"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_payment_meta]
+TABLE "wp_wpforms_tasks_meta"___________________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_tasks_meta]
+TABLE "wp_yoast_indexable"______________________________[ROWS:      67] [EXTRACT|REPLACE] [INST NAME: wp_yoast_indexable]
+TABLE "wp_yoast_indexable_hierarchy"____________________[ROWS:      64] [EXTRACT|REPLACE] [INST NAME: wp_yoast_indexable_hierarchy]
+TABLE "wp_yoast_migrations"_____________________________[ROWS:      24] [EXTRACT|REPLACE] [INST NAME: wp_yoast_migrations]
+TABLE "wp_yoast_primary_term"___________________________[ROWS:      29] [EXTRACT|REPLACE] [INST NAME: wp_yoast_primary_term]
+TABLE "wp_yoast_seo_links"______________________________[ROWS:     122] [EXTRACT|REPLACE] [INST NAME: wp_yoast_seo_links]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.30 -- Build Server: 10.11.11
+FILE SIZE:	dup-database__[HASH].sql (64.93MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`breno.miranda`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	644
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_actionscheduler_actions"______________________[ROWS:   133]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:     0]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:     3]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:   394]
+TABLE "wp_aioseo_notifications"_________________________[ROWS:     0]
+TABLE "wp_aioseo_posts"_________________________________[ROWS:     2]
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     0]
+TABLE "wp_duplicator_packages"__________________________[ROWS:     1]
+TABLE "wp_e_events"_____________________________________[ROWS:     0]
+TABLE "wp_e_submissions"________________________________[ROWS:  1013]
+TABLE "wp_e_submissions_actions_log"____________________[ROWS:  1013]
+TABLE "wp_e_submissions_values"_________________________[ROWS:  4052]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_litespeed_avatar"_____________________________[ROWS:     7]
+TABLE "wp_litespeed_img_optming"________________________[ROWS:     0]
+TABLE "wp_litespeed_url"________________________________[ROWS:   130]
+TABLE "wp_litespeed_url_file"___________________________[ROWS:   224]
+TABLE "wp_options"______________________________________[ROWS:   715]
+TABLE "wp_postmeta"_____________________________________[ROWS:  9256]
+TABLE "wp_posts"________________________________________[ROWS:  1376]
+TABLE "wp_rank_math_404_logs"___________________________[ROWS:    32]
+TABLE "wp_rank_math_internal_links"_____________________[ROWS:    12]
+TABLE "wp_rank_math_internal_meta"______________________[ROWS:    51]
+TABLE "wp_rank_math_redirections"_______________________[ROWS:     0]
+TABLE "wp_rank_math_redirections_cache"_________________[ROWS:     0]
+TABLE "wp_term_relationships"___________________________[ROWS:    85]
+TABLE "wp_term_taxonomy"________________________________[ROWS:    38]
+TABLE "wp_termmeta"_____________________________________[ROWS:     0]
+TABLE "wp_terms"________________________________________[ROWS:    38]
+TABLE "wp_usermeta"_____________________________________[ROWS:    74]
+TABLE "wp_users"________________________________________[ROWS:     1]
+TABLE "wp_wfauditevents"________________________________[ROWS:     0]
+TABLE "wp_wfblockediplog"_______________________________[ROWS:    23]
+TABLE "wp_wfblocks7"____________________________________[ROWS:    41]
+TABLE "wp_wfconfig"_____________________________________[ROWS:   293]
+TABLE "wp_wfcrawlers"___________________________________[ROWS:     1]
+TABLE "wp_wffilechanges"________________________________[ROWS:     0]
+TABLE "wp_wffilemods"___________________________________[ROWS: 10179]
+TABLE "wp_wfhits"_______________________________________[ROWS:   403]
+TABLE "wp_wfhoover"_____________________________________[ROWS:     0]
+TABLE "wp_wfissues"_____________________________________[ROWS:     1]
+TABLE "wp_wfknownfilelist"______________________________[ROWS: 10180]
+TABLE "wp_wflivetraffichuman"___________________________[ROWS:     0]
+TABLE "wp_wflocs"_______________________________________[ROWS:     0]
+TABLE "wp_wflogins"_____________________________________[ROWS:  1509]
+TABLE "wp_wfls_2fa_secrets"_____________________________[ROWS:     0]
+TABLE "wp_wfls_role_counts"_____________________________[ROWS:     0]
+TABLE "wp_wfls_settings"________________________________[ROWS:    30]
+TABLE "wp_wfnotifications"______________________________[ROWS:   224]
+TABLE "wp_wfpendingissues"______________________________[ROWS:     0]
+TABLE "wp_wfreversecache"_______________________________[ROWS:     0]
+TABLE "wp_wfsecurityevents"_____________________________[ROWS:     1]
+TABLE "wp_wfsnipcache"__________________________________[ROWS:     0]
+TABLE "wp_wfstatus"_____________________________________[ROWS:   943]
+TABLE "wp_wftrafficrates"_______________________________[ROWS:     0]
+TABLE "wp_wfwaffailures"________________________________[ROWS:     0]
+TABLE "wp_wpforms_logs"_________________________________[ROWS:    11]
+TABLE "wp_wpforms_payment_meta"_________________________[ROWS:     0]
+TABLE "wp_wpforms_payments"_____________________________[ROWS:     0]
+TABLE "wp_wpforms_tasks_meta"___________________________[ROWS:     6]
+TABLE "wp_yoast_indexable"______________________________[ROWS:    67]
+TABLE "wp_yoast_indexable_hierarchy"____________________[ROWS:    64]
+TABLE "wp_yoast_migrations"_____________________________[ROWS:    24]
+TABLE "wp_yoast_primary_term"___________________________[ROWS:    29]
+TABLE "wp_yoast_seo_links"______________________________[ROWS:   122]
+
+INSERT DATA RUNTIME: 3.0345 sec.
+STEP-2 COMPLETE @ 07:03:40 - RUNTIME: 3.0351 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/u315784279/domains/brenocarvalho.com.br/public_html REPLACE: C:/laragon/www/brenocarvalho [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://brenocarvalho.com.br REPLACE: http://localhost/brenocarvalho [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 07:03:40
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = minor], [inWpConfig = 1]
+WP_CACHE______________: [value = 1], [inWpConfig = 1]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = ]
+WP_DEBUG_LOG__________: [value = 1], [inWpConfig = 1]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+[PHP ERR][E_WARNING] MSG:foreach() argument must be of type array|object, string given [CODE:2|FILE:C:\laragon\www\brenocarvalho\dup-installer\src\Core\Deploy\Database\DbCleanup.php|LINE:95]
+CLEAN OPTIONS [wp_options]
+	`option_name` = "duplicator_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+DATABASE OPTIONS DELETED [ROWS:   114]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:   133][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   394][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_logs][0]
+
+EVALUATE TABLE: "wp_aioseo_notifications"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_aioseo_posts"_________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_aioseo_posts][0]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_events"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions"________________________________[ROWS:  1013][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions][1]
+
+EVALUATE TABLE: "wp_e_submissions_actions_log"____________________[ROWS:  1013][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions_actions_log][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions_actions_log][1]
+
+EVALUATE TABLE: "wp_e_submissions_values"_________________________[ROWS:  4052][PG:   5][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions_values][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions_values][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions_values][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions_values][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions_values][4]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_litespeed_avatar"_____________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_litespeed_avatar][0]
+
+EVALUATE TABLE: "wp_litespeed_img_optming"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_litespeed_url"________________________________[ROWS:   130][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_litespeed_url][0]
+
+EVALUATE TABLE: "wp_litespeed_url_file"___________________________[ROWS:   224][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_litespeed_url_file][0]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   601][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  9256][PG:  10][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][8]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][9]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  1376][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][1]
+	
+STEP-3 CHUNK STOP @ 07:03:45 - RUNTIME: 5.0725 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "wp_rank_math_404_logs"___________________________[ROWS:    32][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_rank_math_404_logs][0]
+
+EVALUATE TABLE: "wp_rank_math_internal_links"_____________________[ROWS:    12][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_rank_math_internal_links][0]
+
+EVALUATE TABLE: "wp_rank_math_internal_meta"______________________[ROWS:    51][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rank_math_redirections"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rank_math_redirections_cache"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    38][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    85][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    38][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    74][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_wfauditevents"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfblockediplog"_______________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfblockediplog][0]
+
+EVALUATE TABLE: "wp_wfblocks7"____________________________________[ROWS:    41][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfblocks7][0]
+
+EVALUATE TABLE: "wp_wfconfig"_____________________________________[ROWS:   293][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfconfig][0]
+
+EVALUATE TABLE: "wp_wfcrawlers"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfcrawlers][0]
+
+EVALUATE TABLE: "wp_wffilechanges"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wffilemods"___________________________________[ROWS: 10179][PG:  11][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][5]
+	
+STEP-3 CHUNK STOP @ 07:03:51 - RUNTIME: 5.4061 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][6]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][7]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][8]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][9]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][10]
+
+EVALUATE TABLE: "wp_wfhits"_______________________________________[ROWS:   403][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfhits][0]
+
+EVALUATE TABLE: "wp_wfhoover"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfissues"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfissues][0]
+
+EVALUATE TABLE: "wp_wfknownfilelist"______________________________[ROWS: 10180][PG:  11][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][1]
+	
+STEP-3 CHUNK STOP @ 07:03:57 - RUNTIME: 5.4846 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][2]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][3]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][4]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][5]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][6]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][7]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][8]
+
+STEP-3 CHUNK STOP @ 07:04:03 - RUNTIME: 5.7762 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][9]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][10]
+
+EVALUATE TABLE: "wp_wflivetraffichuman"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wflocs"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wflogins"_____________________________________[ROWS:  1509][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_wflogins][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_wflogins][1]
+
+EVALUATE TABLE: "wp_wfls_2fa_secrets"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfls_role_counts"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfls_settings"________________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfls_settings][0]
+
+EVALUATE TABLE: "wp_wfnotifications"______________________________[ROWS:   224][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfnotifications][0]
+
+EVALUATE TABLE: "wp_wfpendingissues"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfreversecache"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfsecurityevents"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfsecurityevents][0]
+
+EVALUATE TABLE: "wp_wfsnipcache"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfstatus"_____________________________________[ROWS:   943][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfstatus][0]
+
+EVALUATE TABLE: "wp_wftrafficrates"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfwaffailures"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_logs"_________________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_wpforms_logs][0]
+
+EVALUATE TABLE: "wp_wpforms_payments"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_payment_meta"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_wpforms_tasks_meta][0]
+
+EVALUATE TABLE: "wp_yoast_indexable"______________________________[ROWS:    67][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_indexable][0]
+
+EVALUATE TABLE: "wp_yoast_indexable_hierarchy"____________________[ROWS:    64][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_migrations"_____________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_migrations][0]
+
+EVALUATE TABLE: "wp_yoast_primary_term"___________________________[ROWS:    29][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_primary_term][0]
+
+EVALUATE TABLE: "wp_yoast_seo_links"______________________________[ROWS:   122][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u315784279/domains/brenocarvalho.com.br/public_html" => "C:/laragon/www/brenocarvalho"
+	SEARCH[urlnd]  2:"https://brenocarvalho.com.br" ====================> "http://localhost/brenocarvalho"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_seo_links][0]
+--------------------------------------
+SCANNED:	Tables:66 	|	 Rows:42486 	|	 Cells:291886 
+UPDATED:	Tables:17 	|	 Rows:23966 	|	 Cells:24930 
+ERRORS:		0 
+RUNTIME:	24.321300 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/laragon/www/brenocarvalho/wp-config.php
+New htaccess file created:C:/laragon/www/brenocarvalho/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "http://localhost/brenocarvalho"
+	UPDATE DB_NAME ""wp_brenocarvalho""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_CACHE "true"
+	WP CONFIG UPDATE WP_DEBUG_LOG "true"
+	WP CONFIG UPDATE WP_AUTO_UPDATE_CORE "minor"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 07:04:05 - RUNTIME: 2.2689 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[WARNING] One or multiple config files were found in main WordPress folders
+	SECTIONS: general
+	LONG MSG: Config files in WordPress main folders may cause problems with accessing the site after the installation. The following config files were found: - C:/laragon/www/brenocarvalho/wp-content/.htaccessPlease consider removing those files in case you have problems with your site after the installation.
+
+-----------------------
+[NOTICE] Plugin WPS Hide Login disabled by default
+	SECTIONS: plugins
+	LONG MSG: This plugin is deactivated by default automatically due to issues that one may encounter when migrating. You must reactivate from the WordPress admin panel after completing the installation or from the plugins tab. Your site's frontend will render properly after reactivating the plugin.
+
+====================================
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[WARNING] One or multiple config files were found in main WordPress folders
+	SECTIONS: general
+	LONG MSG: Config files in WordPress main folders may cause problems with accessing the site after the installation. The following config files were found: - C:/laragon/www/brenocarvalho/wp-content/.htaccessPlease consider removing those files in case you have problems with your site after the installation.
+
+-----------------------
+[NOTICE] WPS Hide Login has been deactivated
+	SECTIONS: plugins
+
+-----------------------
+[NOTICE] Activate WPS Hide Login after you login.
+	SECTIONS: plugins
+
+====================================
+LOG-TIME[C:\laragon\www\brenocarvalho\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.19807]  MESSAGE:END RENDER PAGE

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//brenocarvalho.com.br/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://brenocarvalho.com.br/page-sitemap.xml</loc>
+		<lastmod>2024-11-27T14:23:01+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://brenocarvalho.com.br/projeto-sitemap.xml</loc>
+		<lastmod>2025-02-05T22:40:24+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://brenocarvalho.com.br/participacoes-sitemap.xml</loc>
+		<lastmod>2022-09-20T17:30:29+00:00</lastmod>
+	</sitemap>
+</sitemapindex>
