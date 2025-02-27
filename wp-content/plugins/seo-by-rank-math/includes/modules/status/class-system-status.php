@@ -71,7 +71,7 @@ class System_Status {
 	 * @return void
 	 */
 	private function display_system_info_list() {
-		$directory = dirname( __FILE__ );
+		$directory = __DIR__;
 		foreach ( $this->wp_info as $section => $details ) {
 			if ( ! isset( $details['fields'] ) || empty( $details['fields'] ) ) {
 				continue;
@@ -205,7 +205,7 @@ class System_Status {
 
 		// Core debug data.
 		if ( ! class_exists( 'WP_Debug_Data' ) ) {
-			require_once ABSPATH . 'wp-admin/includes/class-wp-debug-data.php';
+			require_once ABSPATH . 'wp-admin/includes/class-wp-debug-data.php'; // @phpstan-ignore-line
 		}
 
 		wp_enqueue_style( 'site-health' );

@@ -16,6 +16,8 @@ use RankMath\Traits\Ajax;
 use RankMath\Traits\Meta;
 use RankMath\Traits\Hooker;
 use RankMath\Helpers\Str;
+use WP_Error;
+use WP_Term;
 
 defined( 'ABSPATH' ) || exit;
 
@@ -24,7 +26,9 @@ defined( 'ABSPATH' ) || exit;
  */
 class Common {
 
-	use Hooker, Ajax, Meta;
+	use Hooker;
+	use Ajax;
+	use Meta;
 
 	/**
 	 * Constructor method.
@@ -173,13 +177,13 @@ class Common {
 	/**
 	 * Hide rank math meta keys
 	 *
-	 * @param bool   $protected Whether the key is considered protected.
-	 * @param string $meta_key  Meta key.
+	 * @param bool   $is_protected Whether the key is considered protected.
+	 * @param string $meta_key     Meta key.
 	 *
 	 * @return bool
 	 */
-	public function hide_rank_math_meta( $protected, $meta_key ) {
-		return Str::starts_with( 'rank_math_', $meta_key ) ? true : $protected;
+	public function hide_rank_math_meta( $is_protected, $meta_key ) {
+		return Str::starts_with( 'rank_math_', $meta_key ) ? true : $is_protected;
 	}
 
 	/**
@@ -208,7 +212,7 @@ class Common {
 	/**
 	 * Get chain of hierarchical links.
 	 *
-	 * @param WP_Term $term The term in question.
+	 * @param WP_Term|WP_Error $term The term in question.
 	 *
 	 * @return string
 	 */

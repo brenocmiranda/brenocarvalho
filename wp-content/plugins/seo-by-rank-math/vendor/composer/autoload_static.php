@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit0f9ac84304483735c3423f2d75599cd5
+class ComposerStaticInitf95403809a755c05c02fcb596801d3fc
 {
     public static $files = array (
         'da5f6548f070d3d306f90eee42dd5de6' => __DIR__ . '/..' . '/donatj/phpuseragentparser/src/UserAgentParser.php',
@@ -88,7 +88,7 @@ class ComposerStaticInit0f9ac84304483735c3423f2d75599cd5
         'RankMath\\Admin\\Importers\\AIOSEO' => __DIR__ . '/../..' . '/includes/admin/importers/class-aioseo.php',
         'RankMath\\Admin\\Importers\\AIO_Rich_Snippet' => __DIR__ . '/../..' . '/includes/admin/importers/class-aio-rich-snippet.php',
         'RankMath\\Admin\\Importers\\Detector' => __DIR__ . '/../..' . '/includes/admin/importers/class-detector.php',
-        'RankMath\\Admin\\Importers\\Plugin_Importer' => __DIR__ . '/../..' . '/includes/admin/importers/abstract-importer.php',
+        'RankMath\\Admin\\Importers\\Plugin_Importer' => __DIR__ . '/../..' . '/includes/admin/importers/class-plugin-importer.php',
         'RankMath\\Admin\\Importers\\Redirections' => __DIR__ . '/../..' . '/includes/admin/importers/class-redirections.php',
         'RankMath\\Admin\\Importers\\SEOPress' => __DIR__ . '/../..' . '/includes/admin/importers/class-seopress.php',
         'RankMath\\Admin\\Importers\\Status' => __DIR__ . '/../..' . '/includes/admin/importers/class-status.php',
@@ -373,6 +373,7 @@ class ComposerStaticInit0f9ac84304483735c3423f2d75599cd5
         'RankMath\\Wizard\\Wizard_Step' => __DIR__ . '/../..' . '/includes/admin/wizard/interface-wizard-step.php',
         'RankMath\\Wizard\\Your_Site' => __DIR__ . '/../..' . '/includes/admin/wizard/class-your-site.php',
         'RankMath\\WooCommerce\\Admin' => __DIR__ . '/../..' . '/includes/modules/woocommerce/class-admin.php',
+        'RankMath\\WooCommerce\\Base' => __DIR__ . '/../..' . '/includes/modules/woocommerce/class-base.php',
         'RankMath\\WooCommerce\\Opengraph' => __DIR__ . '/../..' . '/includes/modules/woocommerce/class-opengraph.php',
         'RankMath\\WooCommerce\\Permalink_Watcher' => __DIR__ . '/../..' . '/includes/modules/woocommerce/class-permalink-watcher.php',
         'RankMath\\WooCommerce\\Product_Redirection' => __DIR__ . '/../..' . '/includes/modules/woocommerce/class-product-redirection.php',
@@ -391,9 +392,9 @@ class ComposerStaticInit0f9ac84304483735c3423f2d75599cd5
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit0f9ac84304483735c3423f2d75599cd5::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit0f9ac84304483735c3423f2d75599cd5::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit0f9ac84304483735c3423f2d75599cd5::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitf95403809a755c05c02fcb596801d3fc::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitf95403809a755c05c02fcb596801d3fc::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitf95403809a755c05c02fcb596801d3fc::$classMap;
 
         }, null, ClassLoader::class);
     }

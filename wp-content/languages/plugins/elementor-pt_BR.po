@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More Than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-02-03 11:32:18+0000\n"
+"PO-Revision-Date: 2025-02-20 23:12:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1971,7 +1971,7 @@ msgstr "Abas. Abra itens com \"Enter\" ou \"Espaço\", feche com \"Escape\" e na
 #. translators: %s: Post type (e.g. Page, Post, etc.)
 #: core/document-types/page-base.php:186
 #: assets/js/packages/editor-site-navigation/editor-site-navigation.js:2
-#: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:13
+#: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:17
 msgid "View %s"
 msgstr "Ver %s"
 
@@ -4959,7 +4959,7 @@ msgstr "Painel"
 
 #: core/common/modules/finder/categories/site.php:46
 #: assets/js/packages/editor-site-navigation/editor-site-navigation.js:2
-#: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:26
+#: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:12
 msgid "Homepage"
 msgstr "Pagina inicial"
 
@@ -5670,7 +5670,7 @@ msgstr "Remover"
 #: includes/editor-templates/repeater.php:18 assets/js/editor.js:29977
 #: assets/js/editor.js:50587
 #: assets/js/packages/editor-site-navigation/editor-site-navigation.js:2
-#: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:16
+#: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:20
 msgid "Duplicate"
 msgstr "Duplicar"
 
@@ -8871,8 +8871,8 @@ msgstr "Adicionar item"
 #: assets/js/editor.js:27617 assets/js/editor.js:30069
 #: assets/js/editor.js:46992 assets/js/import-export-admin.js:272
 #: assets/js/packages/editor-site-navigation/editor-site-navigation.js:2
-#: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:17
-#: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:25
+#: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:21
+#: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:29
 msgid "Delete"
 msgstr "Excluir"
 
